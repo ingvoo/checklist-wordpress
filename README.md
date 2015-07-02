@@ -1,5 +1,5 @@
-# Checklist for putting a Wordpress live
-A list of stuff to do when setting a WordPress site live.
+# Checklist for putting a Wordpress site live
+A list of stuff to do when setting a WordPress site live. It is a good rule not to put a site live on a Friday.
 
 ## Before
 + Check all links, main navigation, sub navigation and mobile navigation.
