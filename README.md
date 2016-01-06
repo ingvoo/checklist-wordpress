@@ -18,5 +18,5 @@
 + Check if system administrator will be doing a scheduled backup of files and database. If not set up a a backup plan. [Updraft Plus](https://wordpress.org/plugins/updraftplus/) is quite a quite good free plugin.
 
 ### Security
-+ Disallow Dashboard editor for security reasons `define( 'DISALLOW_FILE_EDIT', true )`
++ Disallow Dashboard editor for security reasons. Place `define( 'DISALLOW_FILE_EDIT', true )` in the `wp-config.php` file.
 + Install a security plugin. [Wordfence](https://wordpress.org/plugins/wordfence/) is a quite good free plugin.
