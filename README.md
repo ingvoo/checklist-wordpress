@@ -4,6 +4,7 @@
 
 ## Before going live
 + Check all links, main navigation, sub navigation and mobile navigation.
++ Javascript and CSS files are minified.
 + Make a backup of all files. It is always good to have all the files backed up somewhere in the same condition as when the site goes live.
 + Delete unnecessary users and set correct users role. Avoid unnecessary admin accounts.
 + Check if favicon is there and apple-touch-icons as well and displaying correctly.
@@ -16,6 +17,7 @@
 ## After going live
 + Check all links, again.
 + Check if system administrator will be doing a scheduled backup of files and database. If not set up a a backup plan. [Updraft Plus](https://wordpress.org/plugins/updraftplus/) is quite a quite good free plugin.
++ Install a caching plugin. [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/) is fast and easy to set up.
 
 ### Security
 + Disallow Dashboard editor for security reasons. Place `define( 'DISALLOW_FILE_EDIT', true )` in the `wp-config.php` file.
